@@ -4,7 +4,7 @@
 
 when working  with classes in typescript  it is important to contrl how to properties and method can  be acessed. there is four types of modifire, 1. public, 2. private, 3. protected 4, readonly 
 
-##Access modifire understanding
+## Access modifire understanding
 
 ### public: this is the default access modifire in typeScript, A public property or method can be acess form any where 
 like example 
