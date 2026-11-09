@@ -46,7 +46,7 @@ class Manager extends Employee {
 ### Readonly : A re4adoly property can be asssigned a value during declaration or inside the  constructor, after that  , its value cannot be changed
 example : 
 
-``ts class Student {
+```ts class Student {
   readonly id: number = 101;
 }
 
