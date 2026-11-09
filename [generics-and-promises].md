@@ -16,7 +16,8 @@ For example :
   return value;
 }
 const numberValue = getValue<number>(100);
-const textValue = getValue<string>("Hello"); ```
+const textValue = getValue<string>("Hello");
+```
 
 here the example  T repesents the  type passed to the function
 
@@ -42,7 +43,8 @@ async function showUser(): Promise<void> {
   console.log(result);
 }
 
-showUser(); ```
+showUser();
+```
 
 ### conculation :
 
