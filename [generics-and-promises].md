@@ -1,10 +1,10 @@
-Generics and Promises In TypeScript
+# Generics and Promises In TypeScript
 
-Introduction 
+##Introduction 
 
 TypeScript provides sevarel features that make javaScript development  more reliable. Generics and promises are two usefull feature  that developer often use in real project  , Genrics help us write reusable code ,  while Promises help us handle operation that take  time, such as fatching data from an api 
 
-Generics in Typescript
+## Generics in Typescript
 
 Generics allow a function , class or interface to work with differnt data  types  without losing type sefty 
 
@@ -21,7 +21,7 @@ const textValue = getValue<string>("Hello");
 here the example  T repesents the  type passed to the function
 
   
-Pomises in  TypeScript
+##  Pomises in  TypeScript
 
  A promise return the result  of an asynchromous operatiom .it can be three states : pending , fulfiled rejected . we  commmonly use  promises when  working with apirequests or other operation  that do not finish immediatly 
 
@@ -44,6 +44,6 @@ async function showUser(): Promise<void> {
 
 showUser();
 
-conculation :
+### conculation :
 
 Generics and promises slove differnt problems . but both are  important in TypeScript . Generice help us  create reusabel and type safe code , while promise make asychronous
