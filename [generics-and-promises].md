@@ -12,11 +12,11 @@ For example :
 
 
 
-function getValue<T>(value: T): T {
+```function getValue<T>(value: T): T {
   return value;
 }
 const numberValue = getValue<number>(100);
-const textValue = getValue<string>("Hello");
+const textValue = getValue<string>("Hello");```
 
 here the example  T repesents the  type passed to the function
 
@@ -29,7 +29,7 @@ in TypeScript, Promise<T> defines the type of value that a Promise will return w
 
 example like :
 
-function getUser(): Promise<string> {
+```function getUser(): Promise<string> {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("User data loaded");
@@ -42,7 +42,7 @@ async function showUser(): Promise<void> {
   console.log(result);
 }
 
-showUser();
+showUser();```
 
 ### conculation :
 
