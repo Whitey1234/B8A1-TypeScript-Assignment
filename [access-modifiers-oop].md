@@ -9,12 +9,13 @@ when working  with classes in typescript  it is important to contrl how to prope
 ### public: this is the default access modifire in typeScript, A public property or method can be acess form any where 
 like example 
 
-class Student {
+```ts class Student {
   public name: string = "Rahim";
 }
 
 const student = new Student();
 console.log(student.name);
+```
 
 here the name property can be accessable from outside
 
@@ -24,7 +25,7 @@ here the name property can be accessable from outside
 
 example :
 
-class Account {
+```ts class Account {
   private balance: number = 5000;
 }
 
@@ -40,16 +41,18 @@ class Manager extends Employee {
     return this.name;
   }
 }
+```
 
 ### Readonly : A re4adoly property can be asssigned a value during declaration or inside the  constructor, after that  , its value cannot be changed
 example : 
 
-class Student {
+``ts class Student {
   readonly id: number = 101;
 }
 
 const student = new Student();
 console.log(student.id);
+```
 
 ## Conculation : acess modifiers make  typescript classes more organized and secure , and help developers  control data access and avoid unwanted changes
 
