@@ -48,6 +48,6 @@ Through this assignment, I have practiced:
 
 ---
 
-**Course:** Programming Hero
+
 **Module:** 4
 **Assignment:** 1
