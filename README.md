@@ -33,8 +33,8 @@ The solutions cover functions, union types, tuples, arrays, interfaces, generics
 
 As part of this assignment, I have written two blog posts:
 
-1. [Understanding Access Modifiers in TypeScript](./access-modifiers-oop.md)
-2. [Understanding Generics and Promises in TypeScript](./generics-and-promises.md)
+1. [Understanding Access Modifiers in TypeScript](./[access-modifiers-oop].md)
+2. [Understanding Generics and Promises in TypeScript](./[generics-and-promises].md)
 
 ## Learning Outcomes
 
